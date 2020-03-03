@@ -4139,10 +4139,17 @@ ALBUM - CONTAINER
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .album-box {
     position: relative;
+     box-sizing: border-box;
+     
+}
+ .img-box{
+     height: ;
+
 }
 
 .album-box .caption {
