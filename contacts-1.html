@@ -96,7 +96,7 @@
                             <h2>Contact us here</h2>
                             <p>Write us</p>
                         </div>
-                        <form action="https://templates.themekit.dev/execoore/themekit/scripts/contact-form/contact-form.php" class="form-box form-ajax" method="post" data-email="example@domain.com">
+                        <form action="mail_sender.php" class="form-box form-ajax" method="POST">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <p>Name</p>
@@ -121,7 +121,7 @@
                             </div>
                             <p>Messagge</p>
                             <textarea id="messagge" name="messagge" class="input-textarea" placeholder="" required></textarea>
-                            <button class="btn btn-xs" type="submit">Send messagge</button>
+                            <button class="btn btn-xs" type="submit" name="btnRequest">Send messagge</button>
                             <div class="success-box">
                                 <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
                             </div>
