@@ -10,7 +10,7 @@
 					
 
 						
-						$to   	= "vikash0553@rediffmail.com,".$strEmail;
+						$to   	= "narender007bisht@gmail.com,".$strEmail;
 						$subject = "Request to call back";
 						$message = "<html><body>";
 						$message.= "<hr>Customer Details ,<br/><br/>";
@@ -26,7 +26,7 @@
 						$message.="THIS IS AN AUTO GENERATED MAIL ";
 						$message.= "</body></html>";
 						$Header = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-						$Header.= 'From:vikash0553@rediffmail.com' . "\r\n";
+						$Header.= 'From:narender007bisht@gmail.com' . "\r\n";
 						ini_set('SMTP', "relay-hosting.secureserver.net");
 						ini_set('smtp_port', "25");
 						if(mail($to, $subject, $message, $Header))
